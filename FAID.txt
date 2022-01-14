@@ -1,0 +1,44 @@
+
+
+1. HOW TO WRITE DOCKERS
+2. HOW TO CREATE YAML
+3. HOW TO TROBLUE SHOOT INUX APPLICATION
+4. HOW TO WRITE JENKINS PIPELINS
+5. MAVEN build
+6. sonarqube 
+
+IAM VPC EC2 - diff service in EC2, diff storage EBS EFS
+what is cloud formation
+
+terraform - basic, template - create img
+apply key 
+
+4PM..
+
+1. EBS is a block storage service
+
+Amazon Elastic Block Store provides raw block-level storage.
+EBS used to be accessible to a single EC2 instance only, making it most like your physical hard drive. 
+
+which means all data within EBS is stored in equally sized blocks. This system offers some performance advantages over traditional storage, and generally boasts lower latency, too.
+
+2. EFS Elastic File System
+
+Amazon Elastic File System is a cloud storage service provided by Amazon Web Services.
+
+Unlike EBS, EFS can be mounted by multiple EC2 instances, meaning many virtual machines may store files within an EFS instance. 
+
+But its main feature is its scalability. EFS can grow or shrink according to demand, with more and more files being added without disturbing your application or having to provision new infrastructure.
+
+3. S3 is scalable, like EFS, and has access to multiple EC2 instances. However, it can also be accessed by other cloud services, and its object storage system makes it ideal for handling large volumes of static data as well as complex queries.
+
+* EBS is a high-performance per-instance block storage system designed to act as storage for a single EC2 instance (most of the time)
+* EFS is a highly scalable file storage system designed to provide flexible storage for multiple EC2 instances
+* S3 is an object storage system, designed to provide archiving and data control options and to interface with other services beyond EC2. It’s also useful for storing static html pages and shared storage for applications
+
+**********************************
+
+What is AWS CloudFormation? AWS CloudFormation is a service that gives developers and businesses an easy way to create a collection of related AWS and third-party resources, and provision and manage them in an orderly and predictable fashion.
+
+*************************************
+
